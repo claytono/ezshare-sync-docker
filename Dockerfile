@@ -1,4 +1,4 @@
-FROM debian:12.4-slim
+FROM debian:12.5-slim
 
 COPY EzShareWifiSDcardDownloader.sh /
 RUN chmod +x /EzShareWifiSDcardDownloader.sh
